@@ -1,0 +1,154 @@
+{  
+   "APPICATION_STATE": {
+        "1": "L'application ne fonctionne pas",
+        "2": "L'application fonctionne"
+    },
+   "SELECT": "Changer la langue",
+   "PROCESSINSTANCE_STATE": "État d'instance de processus",
+   "time.by" : "créé par",
+   "TIMES":{
+        "agoPrefix":",",
+        "agoSuffix":"ago"
+    },
+    "COMMENT":{
+        "addComment":"Add Comment"
+    },
+	"PROCESSINSTANCE_STATE": {
+        "0": "PI est ouverte",
+        "3": "PI est créée",
+        "7": "PI est en cours d'exécution",
+        "8": "PI est fermée",
+        "10": "PI est erronée",
+        "11": "PI est annulée",
+        "12": "PI est suspendue"
+    },  
+    "PROCESS_INSTANCE_FILTER":{
+        "AllActiveProcesses": "AllActiveProcesses",
+        "MyProcesses": "MyProcesses",
+        "AllProcesses": "AllProcesses",
+        "MyActiveProcesses": "MyActiveProcesses",
+        "AllInactiveProcesses": "AllInactiveProcesses",
+        "MyInactiveProcesses": "MyInactiveProcesses",
+        "AllProcessesInErrorState": "AllProcessesInErrorState"
+    } ,  
+    "PI_TABLE" :{
+                "id": "Id",
+                "name": "prénom",
+                "instanceName": "Nom de l'instance",
+                "creationTime": "Temps de creation",  
+                "created": "créé",              
+                "priority": "Priorité",
+                "dueDate": "Date d'échéance"
+            },
+    "PD_TABLE" :{
+                "id": "Id",
+                "name": "prénom",
+                "state": "Etat",
+                "version": "Version",               
+                "priority": "Priorité",
+                "owner": "Propriétaire",
+                "application": "Application"
+            },
+    "WI_TABLE" :{
+                "id": "Id",
+                "name": "prénom",
+                "instanceName": "Nom de l'instance",
+                "creationTime": "Temps de creation",   
+                "created": "créé",              
+                "priority": "Priorité",
+                "dueDate": "Date d'échéance"
+            },
+    "PRIORITY": {
+           "undefined": "Indéfini",
+           "low": "Faible",
+           "medium": "Moyen",
+           "high": "Haute"
+      },
+    "WORK_ITEM_STATE": {
+        "0":"Ouvert",
+        "3":"Actif",
+        "4":"Déactive",
+        "6":"En baisse",
+        "8":"Accepté",
+        "12":"Attendre SubProcess",
+        "14":"Suspendu",
+        "15":"Lis",
+        "16":"Voté",
+        "25":"Avenir",
+        "-1":"Terminé"
+    },
+    "CREATION_DATE": "Date de création",
+    "CLOSED_DATE": "Date de fermeture",
+    "DUE_DATE": "Date d'échéance",
+    "PRIORITY_DD": "Priorité",
+    "NAME": "prénom",
+    "INSTANCE_NAME": "Nom de l'instance",
+    "STATE": "Etat",
+    "WORK_ITEM_FILTER":{
+        "myCurrentWorkItems": "MyCurrentWorkItems",
+        "myWorkItems": "MyWorkItems",
+        "myActiveWorkItems": "MyActiveWorkItems",
+        "myAcceptedWorkItems": "MyAcceptedWorkItems",
+        "myDeclinedWorkItems": "MyDeclinedWorkItems",
+        "allWorkItems": "AllWorkItems",
+        "allInactiveWorkItems": "AllInactiveWorkItems"
+    },
+    "NODEINSTANCE_STATE": {
+        "0": "Pas commencé",
+        "3": "Attribué",
+        "4": "Attendre",
+        "5": "Fermé",
+        "6": "Avorté",
+        "10": "Erreur",
+        "11": "Suspendu"
+    },
+    "BPM":{
+        "accept": "Acceptez",
+        "decline": "Déclin",
+        "reassign": "Réaffecter",
+        "addSubTask": "Ajouter une sous-tâche",
+        "id": "Id",
+        "plan": "Plan",
+        "version": "Version",
+        "owner": "Propriétaire",
+        "initiator":"Initiateur BPM",   
+        "suspend": "Suspendre",
+        "resume": "Reprendre",
+        "abort": "Abandonner",
+        "task":"Tâche",
+        "taskName":"Tâche prénom"
+    },    
+    "DIRECTORY":{
+        "groups": "Groupes",
+        "users": "Utilisateurs",
+        "filterGroups": "Groupes de filtrage",
+        "filterUsers": "Utilisateurs de filtre",
+        "selected": "Choisi"
+    },
+    "PROCESS_DEFINITION_FILTER":{       
+        "allPlans": "Tous les plans",
+        "myPlans": "Mes plans"
+    },
+    "PROCESS_DEFINITION_STATE": {
+        "0":"Brouillon",
+        "1":"Publié",
+        "2":"Privé",       
+        "3":"Obsolète",    
+        "4":"Supprimé"
+    },
+    "TIME":{       
+        "day": "journée",
+        "days": "journées",
+        "hour": "heure",
+        "hours": "heures",
+        "minute": "minute",
+        "minutes": "minutes"
+    },
+    "PROCESS_ACTIONS": "Actions de processus",
+    "TASK_ACTIONS": "Actions de tâche",
+    "CREATE_INSTANCE_LABLE": {
+        "plan": "Plan",
+        "version": "Version",
+        "udaList": "Liste UDA"
+    }
+}

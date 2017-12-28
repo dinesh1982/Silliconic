@@ -1,0 +1,155 @@
+{
+  
+    "APPICATION_STATE":{ 
+        "1": "Application is not running",
+        "2": "Application is running"
+    },
+    "SELECT": "Change language",
+    "time.by" : "created by",
+    "TIMES":{
+        "agoPrefix":",",
+        "agoSuffix":"ago"
+    },
+    "COMMENT":{
+        "addComment":"Add Comment"
+    },
+    "PROCESSINSTANCE_STATE": {
+        "0":"Open",
+        "3":"Created",
+        "7":"Running",
+        "8":"Closed",
+        "10":"Error",
+        "11":"Aborted",
+        "12":"Suspended"
+    },
+    "PROCESS_INSTANCE_FILTER":{
+        "AllActiveProcesses": "All Active Processes",
+        "MyProcesses": "My Processes",
+        "AllProcesses": "All Processes",
+        "MyActiveProcesses": "My Active Processes",
+        "AllInactiveProcesses": "All Inactive Processes",
+        "MyInactiveProcesses": "My Inactive Processes",
+        "AllProcessesInErrorState": "All Processes in Error State"
+    } ,
+    "PI_TABLE" :{
+                "id": "Id",
+                "name": "Name",
+                "instanceName": "Instance Name",
+                "creationTime": "Creation Time",
+                "created": "Created",               
+                "priority": "Priority",
+                "dueDate": "Due Date"
+            },
+    "PD_TABLE" :{
+                "id": "Id",
+                "name": "Name",
+                "state": "State",
+                "version": "Version",               
+                "priority": "Priority",
+                "owner": "Owner",
+                "application": "Application"
+            },
+    "WI_TABLE" :{
+                "id": "Id",
+                "name": "Name",
+                "instanceName": "Instance Name",
+                "creationTime": "Creation Time",  
+                "created": "Created",                 
+                "priority": "Priority",
+                "dueDate": "Due Date"
+            },
+    "PRIORITY": {
+          "undefined": "Undefined",
+          "low": "Low",
+          "medium": "Medium",
+          "high": "High"
+      },
+    "WORK_ITEM_STATE": {
+        "0":"Open",
+        "3":"Active",
+        "4":"Deactive",
+        "6":"Declined",
+        "8":"Accepted",
+        "12":"Waiting for SubProcess",
+        "14":"Suspended",
+        "15":"Read",
+        "16":"Voted",
+        "25":"Future",
+        "-1":"Completed"
+    },
+    "CREATION_DATE": "Creation Date",
+    "CLOSED_DATE": "Closed Date",
+    "DUE_DATE": "Due Date",
+    "PRIORITY_DD": "Priority",
+    "NAME": "Name",
+    "INSTANCE_NAME": "Instance Name",
+    "STATE": "State",
+    "WORK_ITEM_FILTER": {
+        "myCurrentWorkItems": "My Current Work Items",
+        "myWorkItems": "My Work Items",
+        "myActiveWorkItems": "My Active Work Items",
+        "myAcceptedWorkItems": "My Accepted Work Items",
+        "myDeclinedWorkItems": "My Declined Work Items",
+        "allWorkItems": "All Work Items",
+        "allInactiveWorkItems": "All Inactive Work Items"
+    } ,
+    "NODEINSTANCE_STATE": {
+            "0": "Not Started",
+            "3": "Assigned",
+            "4": "Waiting",
+            "5": "Closed",
+            "6": "Aborted",
+            "10": "Error",
+            "11": "Suspended"
+    },  
+    "BPM": {
+        "accept": "Accept",
+        "decline": "Decline",
+        "reassign": "Reassign",
+        "addSubTask": "Add Sub-Task",
+        "id": "Id",
+        "plan": "Plan",
+        "version": "Version",
+        "owner": "Owner",
+        "initiator":"Initiator",
+        "suspend":"Suspend",
+        "resume":"Resume",
+        "abort":"Abort",
+        "task":"Task",
+        "taskName":"Task Name"
+    },
+    "DIRECTORY": {
+        "groups": "Groups",
+        "users": "Users",
+        "filterGroups": "Filter Groups",
+        "filterUsers": "Filter Users",
+        "selected": "Selected"
+    },
+    "PROCESS_DEFINITION_FILTER": {       
+        "allPlans": "All Plans",
+        "myPlans": "My Plans"
+    },    
+    "PROCESS_DEFINITION_STATE": {
+        "0":"Draft",
+        "1":"Published",
+        "2":"Private",  
+        "3":"Obsolete",         
+        "4":"Deleted"
+    },
+    "TIME": {       
+        "day": "day",
+        "days": "days",
+        "hour": "hour",
+        "hours": "hours",
+        "minute": "minute",
+        "minutes": "minutes"
+    },
+    "PROCESS_ACTIONS": "Process Actions",
+    "TASK_ACTIONS": "Task Actions",
+    "CREATE_INSTANCE_LABLE": {
+        "plan": "Plan",
+        "version": "Version",
+        "udaList": "UDA list"
+    }
+    
+}
