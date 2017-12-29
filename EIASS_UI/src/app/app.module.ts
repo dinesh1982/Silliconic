@@ -11,8 +11,7 @@ import { HttpTranslateLoaderFactory } from './http-translate-loader.factory';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { Text1} from './components/text1.component';
-import { Text2} from './components/text2.component';
+import { PageHomeComponent} from './components/page-home.component';
 
 import { RefErrorService } from './ref-error.service';
 
@@ -35,8 +34,7 @@ import { RefErrorService } from './ref-error.service';
   ],
   declarations: [
     AppComponent,
-    Text1,
-    Text2
+    PageHomeComponent
   ],  
   providers: [
   	RefErrorService
